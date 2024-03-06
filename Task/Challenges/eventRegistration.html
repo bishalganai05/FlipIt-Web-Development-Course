@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+    <div id="event-registration">
+        <h1>Event Registration</h1>
+        <form action="mailto:nightrider66991@gmail.com" method="post">
+
+                <h3>Personal Information</h3>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" />
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" /><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" /><br><br>
+                <label for="street">Street Address</label>
+                <input type="text" id="street" name="street" />
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" /><br><br>
+                <label for="state">State</label>
+                <select id="states">
+                    <option>-- Choose your state --</option>
+                </select>
+                <label for="postal-code"> Postal Code</label>
+                <input type="text" id="postal-code" name="postal-code" />
+
+
+                <h3>Additional Information</h3>
+                <label for="size">Participation Role: </label><br>
+                <div>
+                    <input type="radio" name="ParticipationRole" value="Audience">Audience
+                    <input type="radio" name="ParticipationRole" value="Volunteer">Volunteer
+                    <input type="radio" name="ParticipationRole" value="Core Team">Core Team
+                    <input type="radio" name="ParticipationRole" value="Backstage">Backstage
+                    <input type="radio" name="ParticipationRole" value="Organizer">Organizer
+                    <br><br>
+                    <input type="checkbox" name="pickup"> I Agree with the <a href="#">Terms and Conditions</a> of the Event
+                    
+                </div>
+                <br>
+            <button type="button">Submit</button>
+            <button type="reset">Reset</button>
+    </div>
+</head>
+
+<body>
+</body>
+
+</html>
