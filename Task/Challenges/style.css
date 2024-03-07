@@ -1,0 +1,14 @@
+.fruit{
+    background-color: aqua;
+}
+
+h1{
+    color: red;
+}
+#apple:hover{
+    background-color: gold;
+}
+
+#orange:hover{
+    background-color: brown;
+}
