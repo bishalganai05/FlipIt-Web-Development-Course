@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .fruit{
     background-color: aqua;
 }
@@ -11,4 +14,26 @@ h1{
 
 #orange:hover{
     background-color: brown;
+}
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:absolute;
+    top: 200px;
+    left: 200px;
+}
+.blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:absolute;
+    top: 100px;
+    left: 100px;
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position:absolute;
 }
