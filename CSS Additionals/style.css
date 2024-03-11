@@ -1,0 +1,125 @@
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  /* The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
+}
+
+.div2 {
+  width: 150px;
+  height: 50px;
+  padding: 50px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.div3 {
+  height: 150px;
+  width: 150px;
+  margin: 50px;
+  text-align: left;
+  background-color: aquamarine;
+  overflow: auto;
+  /* The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. */
+}
+
+.div4 {
+  height: 100px;
+  width: 300px;
+  box-shadow: 10px 5px 5px red;
+  /* The box-shadow CSS property adds shadow effects around an element's frame. */
+}
+
+blockquote {
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+}
+
+h1 {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+#p1 {
+  background-color: rgba(255, 0, 0, 0.3);
+} /* red with opacity */
+
+#p2 {
+  background-color: rgba(0, 0, 255, 0.3);
+} /* blue with opacity */
+
+.hexColors div {
+  width: 40px;
+  height: 40px;
+}
+
+.c1 {
+  background: #f09;
+}
+.c2 {
+  background: #f09;
+}
+.c3 {
+  background: #ff0099;
+}
+.c4 {
+  background: #ff0099;
+}
+
+.textIndent{
+  text-indent: 5em;
+  background: powderblue;
+  margin-top: 50px;
+  /* The text-indent CSS property sets the length of empty space (indentation) that is put before lines of text in a block. */
+  letter-spacing: .2rem;
+  /* The letter-spacing CSS property sets the horizontal spacing behavior between text characters. This value is added to the natural spacing between characters while rendering the text. Positive values of letter-spacing causes characters to spread farther apart, while negative values of letter-spacing bring characters closer together. */
+}
+
+.transitionCSS{
+  font-size: 14px;
+  transition: all 1s ease-out;
+  /* transition: margin-right 2s .5s; */
+}
+
+.transitionCSS:hover {
+  font-size: 36px;
+}
+
+/* unvisited link */
+.pseudoClass:link {
+  color: #FF0000;
+}
+
+/* visited link */
+.pseudoClass:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+.pseudoClass:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+.pseudoClass:active {
+  color: #0000FF;
+}
+
+p::after {
+  /* The ::after selector inserts something after the content of each selected element(s). */
+  content: " - Remember this";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+.example1 {
+  border: 2px solid red;
+  border-radius: 50px 50px;
+  /* The border-radius property defines the radius of the element's corners. */
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  margin-top: 50px;
+}
